@@ -1,0 +1,24 @@
+commit c0d59ec6f328eaf947549c512736b70a71a274a4
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-21T11:36:03+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-21T11:36:03+03:00
+
+    Done 2
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 6f8d047af8cfd2c6082be8d8c2c4a5becf7b36fb
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-21T11:35:21+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-21T11:35:21+03:00
+
+    Done
+
+ README.md           |   9 ++++
+ ex01_json.md        |  34 ++++++++++++
+ ex02_tool_choice.md |  77 +++++++++++++++++++++++++++
+ ex03_chain.md       | 150 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 4 files changed, 270 insertions(+)

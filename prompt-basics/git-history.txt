@@ -1,0 +1,14 @@
+commit 737237bb0f8ef4a0a0889ae9e91ad9cb61f4a7c2
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-15T12:01:00+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-15T12:01:00+03:00
+
+    GOD let it be the last commit.
+
+ README.md          |   7 ++
+ ex01_basics.md     | 103 ++++++++++++++++++++
+ ex02_refine.md     |  18 ++++
+ ex03_fewshot.md    |  84 ++++++++++++++++
+ ex04_parameters.md | 278 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 5 files changed, 490 insertions(+)

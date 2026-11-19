@@ -1,0 +1,43 @@
+commit c004cf7ee574ca2d742d9378b3cd5c4ae5be7af4
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-19T10:30:50+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-19T10:30:50+03:00
+
+    Done
+
+ README.md | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
+commit 7bd42bed9c8a4b54f9eff3fa3954ab35bc43216a
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-19T10:25:37+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-19T10:25:37+03:00
+
+    ex03 done
+
+ ex03_transform.md | 49 +++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 49 insertions(+)
+
+commit 7ef20954028c85ba8c66ac978011f390c6c5b70b
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-19T10:15:13+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-19T10:15:13+03:00
+
+    ex02 done
+
+ ex02_extract.md | 71 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 71 insertions(+)
+
+commit 9352c2181526f10d2c7db12f2f96a7e0c2f37ed1
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-19T10:01:32+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-19T10:01:32+03:00
+
+    ex01 done
+
+ ex01_summarize.md | 66 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 66 insertions(+)

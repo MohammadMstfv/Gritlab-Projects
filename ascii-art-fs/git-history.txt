@@ -1,0 +1,27 @@
+commit 4b5efa3b206417a9d3471e022fc23122b4b9c320
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-25T13:57:19+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-25T13:57:19+03:00
+
+    dealing with !" shit thing
+
+ main.go      |   2 +-
+ main_test.go | 152 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 153 insertions(+), 1 deletion(-)
+
+commit 07743eff71a1a6aaf6d6f8f31f340ebc67e26743
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-25T13:18:51+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-25T13:18:51+03:00
+
+    first commit, same as Ascii-art
+
+ go.mod         |   3 +
+ main.go        | 135 +++++++++
+ main_test.go   | 104 +++++++
+ shadow.txt     | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ standard.txt   | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ thinkertoy.txt | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 6 files changed, 2807 insertions(+)

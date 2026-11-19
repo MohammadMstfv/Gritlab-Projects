@@ -1,0 +1,17 @@
+commit ac1c4a39106ee7242c6ea31b099e1372dc636996
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-14T11:26:56+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-14T11:26:56+03:00
+
+    first commit, God let it be the last commit, Amen
+
+ .gitignore                |  1 +
+ README.md                 | 13 +++++++++++++
+ ex01_buggy.py             | 20 ++++++++++++++++++++
+ ex01_debug.md             | 45 +++++++++++++++++++++++++++++++++++++++++++++
+ ex01_fixed.py             | 20 ++++++++++++++++++++
+ ex02_fairness_contract.md | 26 ++++++++++++++++++++++++++
+ ex03_scenarios.md         | 20 ++++++++++++++++++++
+ ex04_skills.md            | 19 +++++++++++++++++++
+ 8 files changed, 164 insertions(+)

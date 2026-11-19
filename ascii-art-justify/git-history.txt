@@ -1,0 +1,26 @@
+commit 757e7b275e70cc52040accd85837342a8c899ea2
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-28T13:53:20+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-28T13:53:20+03:00
+
+    add some comments
+
+ main.go | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+commit 22d07b1074bf0db6ebb9c417814eb0c7e9235e3e
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-25T15:43:35+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-25T15:43:35+03:00
+
+    added justify to the main ascii-art
+
+ go.mod         |   3 +
+ main.go        | 256 +++++++++++++++++
+ main_test.go   | 152 ++++++++++
+ shadow.txt     | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ standard.txt   | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ thinkertoy.txt | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 6 files changed, 2976 insertions(+)

@@ -1,0 +1,728 @@
+commit b4935292201ad6d0207d1354bf5f3cc11f8732f9
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T13:00:49+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T13:00:49+03:00
+
+    Agent host session 35161de0-b772-44a6-b85d-dc7a3d8787cf - turn 2
+
+commit d0be6d787552a86b608987dee92e9ad3bc11d12f
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T13:00:48+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T13:00:48+03:00
+
+    Agent host session 35161de0-b772-44a6-b85d-dc7a3d8787cf - turn 2 start
+
+commit bfb5d0bc78a90d083904bce6a7ecb8cbc7e603cb
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T12:57:37+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T12:57:37+03:00
+
+    Updated Readme
+
+ README.MD | 91 +++++++++++++++++++++++++++++++++++++++++++++++----------------
+ 1 file changed, 68 insertions(+), 23 deletions(-)
+
+commit 852471f0773225cff6922a72ac7d4f35dd2c1722
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T12:57:28+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T12:57:28+03:00
+
+    Agent host session 35161de0-b772-44a6-b85d-dc7a3d8787cf - turn 1
+
+ README.MD | 91 +++++++++++++++++++++++++++++++++++++++++++++++----------------
+ 1 file changed, 68 insertions(+), 23 deletions(-)
+
+commit 8b8af1a63b9594e03eaa0d7b13f95e3bbbe6bb10
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T12:57:28+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T12:57:28+03:00
+
+    Agent host session 35161de0-b772-44a6-b85d-dc7a3d8787cf - turn 1 start
+
+commit 8ceb91682108e68b12b283bd96f792d0d02b53f4
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T12:55:12+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T12:55:12+03:00
+
+    Agent host session 35161de0-b772-44a6-b85d-dc7a3d8787cf - baseline checkpoint
+
+ .DS_Store            | Bin 0 -> 8196 bytes
+ .dockerignore        |   4 +
+ Binary.flf           | 372 ++++++++++++++++++++++
+ Dockerfile           |  22 ++
+ README.MD            |  72 +++++
+ dockerize.sh         |   7 +
+ go.mod               |   3 +
+ main.go              | 332 ++++++++++++++++++++
+ main_test.go         | 301 ++++++++++++++++++
+ shadow.txt           | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ standard.txt         | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ static/script.js     | 136 ++++++++
+ static/style.css     | 274 +++++++++++++++++
+ templates/index.html |  67 ++++
+ thinkertoy.txt       | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ 15 files changed, 4155 insertions(+)
+
+commit b2a9cfdf6fdeac46950822fca44867821447b59a
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T12:53:16+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T12:53:16+03:00
+
+    removed flf shit
+
+ .DS_Store    | Bin 0 -> 8196 bytes
+ main.go      | 344 ++++++++++++++++++-----------------------------------------
+ main_test.go | 108 +++++++++++++------
+ 3 files changed, 181 insertions(+), 271 deletions(-)
+
+commit f4655eeb9bb9e970eb4f5454197083f216705d5a
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T11:42:46+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T11:42:46+03:00
+
+    removed flf shit
+
+ README.MD    |   4 +-
+ main.go      | 317 +++++++++++++++--------------------------------------------
+ main_test.go |  69 ++++++-------
+ 3 files changed, 116 insertions(+), 274 deletions(-)
+
+commit 774e637f9aa55862c80ee3689a13e9a310e0dc9b
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T11:38:25+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T11:38:25+03:00
+
+    Agent host session e560dacc-c997-4c32-a53a-fea415cc1bf0 - turn 8
+
+ README.MD    |   4 +-
+ main.go      | 317 +++++++++++++++--------------------------------------------
+ main_test.go |  69 ++++++-------
+ 3 files changed, 116 insertions(+), 274 deletions(-)
+
+commit a173ce8cef8d31707e896a64cc9a30803e9a415e
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T11:38:25+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T11:38:25+03:00
+
+    Agent host session e560dacc-c997-4c32-a53a-fea415cc1bf0 - turn 8 start
+
+commit 89238d21d676edfc7c2be3055d834d124ae9931b
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T11:34:26+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T11:34:26+03:00
+
+    Agent host session e560dacc-c997-4c32-a53a-fea415cc1bf0 - turn 7
+
+ README.MD    | 2 +-
+ main_test.go | 4 ++--
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 447f0531c5d38e3dfc71c32a067a6a8ac33837f4
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T11:34:26+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T11:34:26+03:00
+
+    Agent host session e560dacc-c997-4c32-a53a-fea415cc1bf0 - turn 7 start
+
+commit 6b0b745264ae2e9af5329799915b851e176830ab
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T11:32:01+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T11:32:01+03:00
+
+    Agent host session e560dacc-c997-4c32-a53a-fea415cc1bf0 - turn 6
+
+commit 595a98a7c41e84ed289dbefca2b083a064c520ab
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T11:32:01+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T11:32:01+03:00
+
+    Agent host session e560dacc-c997-4c32-a53a-fea415cc1bf0 - turn 6 start
+
+commit 9048a795b6479352e9498ebd10cd570832c6e558
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T11:16:32+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T11:16:32+03:00
+
+    Agent host session e560dacc-c997-4c32-a53a-fea415cc1bf0 - turn 5
+
+commit 277cacea6f28ce24424959d5e53b90d71faabc61
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T11:16:32+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T11:16:32+03:00
+
+    Agent host session e560dacc-c997-4c32-a53a-fea415cc1bf0 - turn 5 start
+
+commit 28414ec64ad3d4628fff8486a0769daa3f5884e7
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T11:02:35+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T11:02:35+03:00
+
+    Agent host session e560dacc-c997-4c32-a53a-fea415cc1bf0 - turn 4
+
+commit f9d4e852ef7b11e48b7890e94e393de67224f5db
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T11:02:34+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T11:02:34+03:00
+
+    Agent host session e560dacc-c997-4c32-a53a-fea415cc1bf0 - turn 4 start
+
+commit 9cbb08424fe95633396b230523965b70a02a481a
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T11:00:27+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T11:00:27+03:00
+
+    Agent host session e560dacc-c997-4c32-a53a-fea415cc1bf0 - turn 3
+
+commit 85adbfbb685087e5c5f6afc325b97bdcc4e5e68f
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T11:00:27+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T11:00:27+03:00
+
+    Agent host session e560dacc-c997-4c32-a53a-fea415cc1bf0 - turn 3 start
+
+commit 636f350de583705f60f22ee3c97919ea64736bed
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T10:53:00+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T10:53:00+03:00
+
+    Agent host session e560dacc-c997-4c32-a53a-fea415cc1bf0 - turn 2
+
+commit ecb4444f1737e927c3d0be1a3353776433f74c9b
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T10:53:00+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T10:53:00+03:00
+
+    Agent host session e560dacc-c997-4c32-a53a-fea415cc1bf0 - turn 2 start
+
+commit 90057adc73d26b234d4a6153a33b0a99d9deacb5
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T10:36:01+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T10:36:01+03:00
+
+    added other export types
+
+ .gitignore           |  1 +
+ README.MD            |  2 ++
+ main.go              | 29 +++++++++++++++++++++++++++++
+ main_test.go         | 39 +++++++++++++++++++++++++++++++++++++++
+ static/script.js     | 25 +++++++++++++++++++++++++
+ static/style.css     |  2 +-
+ templates/index.html |  3 ++-
+ 7 files changed, 99 insertions(+), 2 deletions(-)
+
+commit 5dd01c341cf2e065c63632d79624365e72351455
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T10:35:00+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T10:35:00+03:00
+
+    Agent host session e560dacc-c997-4c32-a53a-fea415cc1bf0 - turn 1
+
+ .DS_Store            | Bin 8196 -> 0 bytes
+ .gitignore           |   1 +
+ README.MD            |   2 ++
+ main.go              |  29 +++++++++++++++++++++++++++++
+ main_test.go         |  39 +++++++++++++++++++++++++++++++++++++++
+ static/script.js     |  25 +++++++++++++++++++++++++
+ static/style.css     |   2 +-
+ templates/index.html |   3 ++-
+ 8 files changed, 99 insertions(+), 2 deletions(-)
+
+commit 3651825b76fe8c9b4bbec9c20c5684684e37b416
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T10:35:00+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T10:35:00+03:00
+
+    Agent host session e560dacc-c997-4c32-a53a-fea415cc1bf0 - turn 1 start
+
+commit d6d2d1bb72d902ba948713f6a583275adbb41cdb
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-07T10:31:32+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-07T10:31:32+03:00
+
+    Agent host session e560dacc-c997-4c32-a53a-fea415cc1bf0 - baseline checkpoint
+
+ .DS_Store            | Bin 0 -> 8196 bytes
+ Binary.flf           | 372 ++++++++++++++++++++++
+ README.MD            |  33 ++
+ go.mod               |   3 +
+ main.go              | 464 ++++++++++++++++++++++++++++
+ main_test.go         | 259 ++++++++++++++++
+ shadow.txt           | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ standard.txt         | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ static/script.js     | 136 ++++++++
+ static/style.css     | 274 +++++++++++++++++
+ templates/index.html |  67 ++++
+ thinkertoy.txt       | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ 12 files changed, 4173 insertions(+)
+
+commit 60d9dcfaa6a9749dbde74f8d6c1832340b2af5f2
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T17:05:02+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T17:05:02+03:00
+
+    made some changes to the style and script files to enhance the user interface and improve functionality. Updated the index.html template to reflect these changes.
+
+ static/script.js     |  59 +++++--
+ static/style.css     | 450 +++++++++++++++++++++++++++++++++++----------------
+ templates/index.html |  67 +++++---
+ 3 files changed, 401 insertions(+), 175 deletions(-)
+
+commit d5a77bba2cf70f192d26919cd7b1b0e1819f4f89
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T17:01:16+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T17:01:16+03:00
+
+    start of stylize
+
+ .dockerignore |  4 ----
+ Dockerfile    | 22 ----------------------
+ dockerize.sh  |  7 -------
+ 3 files changed, 33 deletions(-)
+
+commit 3e96602770700851382cc745877659bda7a4764c
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T16:56:19+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T16:56:19+03:00
+
+    Agent host session 20696296-e826-439b-b5de-67eb5dbaf734 - turn 6
+
+commit 57ef34a9f8fe91a1ffc5940d24d82185ecdd05a0
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T16:56:19+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T16:56:19+03:00
+
+    Agent host session 20696296-e826-439b-b5de-67eb5dbaf734 - turn 6 start
+
+ Dockerfile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 902324cb19f7a61f13b59a446f1cb5bd57bde098
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T16:54:44+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T16:54:44+03:00
+
+    dockers fixed
+
+ .dockerignore |  2 ++
+ Dockerfile    | 12 ++++++++----
+ README.MD     | 31 +++++++++++++++++++++++++++----
+ dockerize.sh  |  7 +++++++
+ 4 files changed, 44 insertions(+), 8 deletions(-)
+
+commit 2c71b1c2758b86e9723073884c38456e583b307b
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T16:18:35+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T16:18:35+03:00
+
+    Agent host session 20696296-e826-439b-b5de-67eb5dbaf734 - turn 5
+
+commit 3a56969deb4a8726abe396461508865c4ff753a8
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T16:18:35+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T16:18:35+03:00
+
+    Agent host session 20696296-e826-439b-b5de-67eb5dbaf734 - turn 5 start
+
+commit 92a80591cd69acc4211f10ea6817edabca336264
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T16:14:19+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T16:14:19+03:00
+
+    Agent host session 20696296-e826-439b-b5de-67eb5dbaf734 - turn 4
+
+ .dockerignore |  2 ++
+ Dockerfile    | 12 ++++++++----
+ README.MD     | 31 +++++++++++++++++++++++++++----
+ dockerize.sh  |  7 +++++++
+ 4 files changed, 44 insertions(+), 8 deletions(-)
+
+commit 0ac65c6006355619b972b0181e9bea7f226a382e
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T16:14:18+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T16:14:18+03:00
+
+    Agent host session 20696296-e826-439b-b5de-67eb5dbaf734 - turn 4 start
+
+commit 1951557af70f91ddf898bdf921ab64931810c433
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T16:10:43+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T16:10:43+03:00
+
+    Agent host session 20696296-e826-439b-b5de-67eb5dbaf734 - turn 3
+
+commit 24acb6e87eb109f73e35ca1ad109ef4bcaf2f401
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T16:10:43+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T16:10:43+03:00
+
+    Agent host session 20696296-e826-439b-b5de-67eb5dbaf734 - turn 3 start
+
+commit ffa102f4149d758e1c7488f1f45c31298056e64e
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T16:01:46+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T16:01:46+03:00
+
+    Agent host session 20696296-e826-439b-b5de-67eb5dbaf734 - turn 2
+
+commit 8729daef0fcf99ffa49d8655296375e1e58974ce
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T16:01:46+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T16:01:46+03:00
+
+    Agent host session 20696296-e826-439b-b5de-67eb5dbaf734 - turn 2 start
+
+commit 5a9e20061a85099ae83f5f02566c8390359b551f
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T15:59:34+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T15:59:34+03:00
+
+    Agent host session 20696296-e826-439b-b5de-67eb5dbaf734 - turn 1
+
+commit 5e7a250fd493ebb56ccadd18833d9bb31b066ed0
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T15:59:34+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T15:59:34+03:00
+
+    Agent host session 20696296-e826-439b-b5de-67eb5dbaf734 - turn 1 start
+
+commit 8f07f4abebd5e99d42697afc79afed544ec9fed0
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T15:58:59+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T15:58:59+03:00
+
+    Agent host session 20696296-e826-439b-b5de-67eb5dbaf734 - baseline checkpoint
+
+ .dockerignore        |   2 +
+ Binary.flf           | 372 ++++++++++++++++++++++
+ Dockerfile           |  18 ++
+ README.MD            |  49 +++
+ go.mod               |   3 +
+ main.go              | 464 ++++++++++++++++++++++++++++
+ main_test.go         | 259 ++++++++++++++++
+ shadow.txt           | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ standard.txt         | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ static/script.js     | 136 ++++++++
+ static/style.css     | 274 +++++++++++++++++
+ templates/index.html |  67 ++++
+ thinkertoy.txt       | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ 13 files changed, 4209 insertions(+)
+
+commit a289f0552ba1b0550e964eb10aedae936fec2bfc
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T15:58:11+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T15:58:11+03:00
+
+    Agent host session 99855c02-4107-4797-84a5-8af2086ffec8 - turn 7
+
+commit 62b25c196a6750e2a76bda4a1f3d0f2fc5786006
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T15:58:11+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T15:58:11+03:00
+
+    Agent host session 99855c02-4107-4797-84a5-8af2086ffec8 - turn 7 start
+
+ .dockerignore |  2 ++
+ Dockerfile    | 18 ++++++++++++++++++
+ README.MD     | 16 ++++++++++++++++
+ 3 files changed, 36 insertions(+)
+
+commit bff479b56d770b34ac33b427198a1e94a9e4d4a4
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T15:56:43+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T15:56:43+03:00
+
+    Agent host session 99855c02-4107-4797-84a5-8af2086ffec8 - turn 6
+
+commit 36c4537d21aa1f4552e898e88e8b9f25999fa51d
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T15:56:43+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T15:56:43+03:00
+
+    Agent host session 99855c02-4107-4797-84a5-8af2086ffec8 - turn 6 start
+
+commit fb2020ac8385e675e66efeb0c3d7dfa903b883f5
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T15:46:29+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T15:46:29+03:00
+
+    Agent host session 99855c02-4107-4797-84a5-8af2086ffec8 - turn 5
+
+commit 8ec519aef31249826a7351ef1bd378df8d296298
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T15:46:28+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T15:46:28+03:00
+
+    Agent host session 99855c02-4107-4797-84a5-8af2086ffec8 - turn 5 start
+
+ .dockerignore |  2 --
+ Dockerfile    | 18 ------------------
+ README.MD     | 16 ----------------
+ 3 files changed, 36 deletions(-)
+
+commit 78a9b94566a2de712cb1434e7b925beae530d897
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-03T18:09:13+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-03T18:09:13+03:00
+
+    Docker files added
+
+ .dockerignore |  2 ++
+ Dockerfile    | 18 ++++++++++++++++++
+ README.MD     | 16 ++++++++++++++++
+ 3 files changed, 36 insertions(+)
+
+commit 1d290362987fcb31de9c20249514f758bb34eec1
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-03T18:07:23+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-03T18:07:23+03:00
+
+    Agent host session 99855c02-4107-4797-84a5-8af2086ffec8 - turn 4
+
+commit 0642d58e7f9402f3c73ab0e19864a0ae3a889a6c
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-03T18:07:23+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-03T18:07:23+03:00
+
+    Agent host session 99855c02-4107-4797-84a5-8af2086ffec8 - turn 4 start
+
+commit 8c9c3e35a830ca8192e7020a4ad552bfa59597b6
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-03T18:06:11+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-03T18:06:11+03:00
+
+    Agent host session 99855c02-4107-4797-84a5-8af2086ffec8 - turn 3
+
+commit 97fef7a5b5876854a55d022b373949a391b64d15
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-03T18:06:11+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-03T18:06:11+03:00
+
+    Agent host session 99855c02-4107-4797-84a5-8af2086ffec8 - turn 3 start
+
+commit f3de99fc437bdb211eb97c3d4e3f9225574289c8
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-03T18:01:42+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-03T18:01:42+03:00
+
+    Agent host session 99855c02-4107-4797-84a5-8af2086ffec8 - turn 2
+
+commit a9588ee63fdf85ca618218f27b84510b12dc4537
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-03T18:01:42+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-03T18:01:42+03:00
+
+    Agent host session 99855c02-4107-4797-84a5-8af2086ffec8 - turn 2 start
+
+commit 1c11848a2879a23e9eacdc67f5f06d349dd44832
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-03T17:59:40+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-03T17:59:40+03:00
+
+    Agent host session 99855c02-4107-4797-84a5-8af2086ffec8 - turn 1
+
+ .dockerignore |  2 ++
+ Dockerfile    | 18 ++++++++++++++++++
+ README.MD     | 16 ++++++++++++++++
+ 3 files changed, 36 insertions(+)
+
+commit 17ecb2c99e8f889a1a9363228b03904114b31dc2
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-03T17:59:40+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-03T17:59:40+03:00
+
+    Agent host session 99855c02-4107-4797-84a5-8af2086ffec8 - turn 1 start
+
+commit 6e14f3fa33d4e80992c8a0c546e2d82ad8703063
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-03T17:58:06+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-03T17:58:06+03:00
+
+    Agent host session 99855c02-4107-4797-84a5-8af2086ffec8 - baseline checkpoint
+
+ Binary.flf           | 372 ++++++++++++++++++++++
+ README.MD            |  33 ++
+ go.mod               |   3 +
+ main.go              | 464 ++++++++++++++++++++++++++++
+ main_test.go         | 259 ++++++++++++++++
+ shadow.txt           | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ standard.txt         | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ static/script.js     | 136 ++++++++
+ static/style.css     | 274 +++++++++++++++++
+ templates/index.html |  67 ++++
+ thinkertoy.txt       | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ 11 files changed, 4173 insertions(+)
+
+commit 35068223f3086c7fcb2f21449c3bbb3861a88ef5
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-02T16:07:17+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-02T16:07:17+03:00
+
+    Fixed \r problem
+
+ main.go      | 13 ++++++++++--
+ main_test.go | 69 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 80 insertions(+), 2 deletions(-)
+
+commit 77e84be403fe31459404566565965140df9bb481
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-02T15:33:31+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-02T15:33:31+03:00
+
+    fix the README
+
+ README.MD | 29 ++++++++---------------------
+ 1 file changed, 8 insertions(+), 21 deletions(-)
+
+commit aae8c28fd0e4bfb0b6bfd77cfe808be6bed2fe77
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-29T11:01:38+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-29T11:01:38+03:00
+
+    added an stupid button just as asked.
+
+ static/script.js     | 74 ++++++++++++++++++++++++++++++++++++++--------------
+ static/style.css     | 44 +++++++++++++++++++++++++++++--
+ templates/index.html | 38 +++++++++++++++++----------
+ 3 files changed, 121 insertions(+), 35 deletions(-)
+
+commit b5d25b939eda32d32f8fb9d9c62fcbab29966502
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-29T10:09:13+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-29T10:09:13+03:00
+
+    cleaner css
+
+ static/style.css | 268 +++++++++++++++++++++++++++++++++++++++++++++++--------
+ 1 file changed, 232 insertions(+), 36 deletions(-)
+
+commit 8ede28c9f58447d4d3ae2aa17be85e3e1edf8895
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-29T09:59:15+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-29T09:59:15+03:00
+
+    added colors to background and text
+
+ static/script.js     | 18 ++++++++++++++++--
+ static/style.css     |  7 +++++++
+ templates/index.html | 26 ++++++++++++++++++++++++--
+ 3 files changed, 47 insertions(+), 4 deletions(-)
+
+commit 08ce9f5ef07116306b10d9efd0f3ec7359c34649
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-28T15:59:16+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-28T15:59:16+03:00
+
+    distributed the html to css and js. added 1 font.
+
+ 3D Diagonal.flf      | 1670 -------------------------------------------------
+ Block.flf            | 1691 --------------------------------------------------
+ Blocks.flf           | 1134 ---------------------------------
+ Bloody.flf           | 1024 ------------------------------
+ README.MD            |   14 +-
+ main.go              |  203 +++++-
+ main_test.go         |   21 +-
+ static/script.js     |  100 +++
+ static/style.css     |   38 ++
+ templates/index.html |  155 +----
+ 10 files changed, 344 insertions(+), 5706 deletions(-)
+
+commit e3bbf3e7043d02ea9dee1b64f68528e10a1d0100
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-28T14:55:20+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-28T14:55:20+03:00
+
+    add fonts and use both formats.
+
+ README.MD            |  21 ++++++--
+ main.go              | 146 +++++++++++++++++++++++++++++++++++++++++----------
+ main_test.go         |  35 +++++++++---
+ templates/index.html |   5 ++
+ 4 files changed, 168 insertions(+), 39 deletions(-)
+
+commit 7c39300d41e050aa3ed4f533f1b3c2271a1739d4
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-25T16:57:30+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-25T16:57:30+03:00
+
+    first commit
+
+ 3D Diagonal.flf      | 1670 +++++++++++++++++++++++++++++++++++++++++++++++++
+ Binary.flf           |  372 +++++++++++
+ Block.flf            | 1691 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ Blocks.flf           | 1134 +++++++++++++++++++++++++++++++++
+ Bloody.flf           | 1024 ++++++++++++++++++++++++++++++
+ README.MD            |   31 +
+ go.mod               |    3 +
+ main.go              |  224 +++++++
+ main_test.go         |  150 +++++
+ shadow.txt           |  855 +++++++++++++++++++++++++
+ standard.txt         |  855 +++++++++++++++++++++++++
+ templates/index.html |  195 ++++++
+ thinkertoy.txt       |  855 +++++++++++++++++++++++++
+ 13 files changed, 9059 insertions(+)

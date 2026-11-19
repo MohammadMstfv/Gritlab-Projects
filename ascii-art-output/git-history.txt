@@ -1,0 +1,27 @@
+commit ff0b12bef08f29d204607254973afc1cc5a5a7f6
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-25T12:25:38+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-25T12:25:38+03:00
+
+    every possible input tested
+
+ main_test.go | 227 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 227 insertions(+)
+
+commit 3e47b5ad1238ed293e7d4a2696dadf784b805de0
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-25T12:21:17+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-25T12:21:17+03:00
+
+    first commit. everything same as before. add test file, add output
+
+ banner.txt     |   8 +
+ go.mod         |   3 +
+ main.go        | 186 +++++++++++++
+ main_test.go   | 152 ++++++++++
+ shadow.txt     | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ standard.txt   | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ thinkertoy.txt | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 7 files changed, 2914 insertions(+)

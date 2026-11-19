@@ -1,0 +1,50 @@
+commit e7660e56be63bc0d01468752ad35069ef1691c91
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-24T11:29:07+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-24T11:29:07+03:00
+
+    tried once more
+
+ result.txt | 2 +-
+ sample.txt | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 354f6538dfa2695b726d2703480e661e5330bb61
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-24T11:27:20+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-24T11:27:20+03:00
+
+    Third commit, tried it with txt files.
+
+ result.txt | 1 +
+ sample.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit a99fb8f5e4f3961493b43d2863d1404d5e9ed67e
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-24T11:00:13+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-24T11:00:13+03:00
+
+    second commit
+
+ main.go | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 3179c4295c6bcb8c04e95cb98d92a2c688b6cca4
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-23T14:42:30+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-23T14:42:30+03:00
+
+    first commit
+
+ .gitignore        |   1 +
+ README.md         |  28 +++++++
+ go.mod            |   3 +
+ main.go           |  29 +++++++
+ transform.go      | 224 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ transform_test.go |  77 +++++++++++++++++++
+ 6 files changed, 362 insertions(+)

@@ -1,0 +1,121 @@
+commit 83dd2282bf284cacd8852d2293ed7c0b6d9380d3
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T17:45:45+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T17:45:45+03:00
+
+    fixed responsive
+
+ static/style.css | 9 ---------
+ 1 file changed, 9 deletions(-)
+
+commit ec769265a91ef790486352a3230e0c9310acff23
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T17:45:07+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T17:45:07+03:00
+
+    Agent host session ae5273fa-3e45-44de-add3-0e97120d5cd5 - turn 1
+
+ static/style.css | 9 ---------
+ 1 file changed, 9 deletions(-)
+
+commit 72fe28126e47f0e63d0288d0de06bcd37ea33d17
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T17:45:06+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T17:45:06+03:00
+
+    Agent host session ae5273fa-3e45-44de-add3-0e97120d5cd5 - turn 1 start
+
+commit 024bd7d37668ca626ec6bbedc335030a1221b993
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T17:44:16+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T17:44:16+03:00
+
+    Agent host session ae5273fa-3e45-44de-add3-0e97120d5cd5 - baseline checkpoint
+
+ Binary.flf           | 372 ++++++++++++++++++++++
+ README.MD            |  33 ++
+ go.mod               |   3 +
+ main.go              | 464 ++++++++++++++++++++++++++++
+ main_test.go         | 259 ++++++++++++++++
+ shadow.txt           | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ standard.txt         | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ static/script.js     | 173 +++++++++++
+ static/style.css     | 442 ++++++++++++++++++++++++++
+ templates/index.html |  88 ++++++
+ thinkertoy.txt       | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ 11 files changed, 4399 insertions(+)
+
+commit 68cdbf7a6e36b38e4d6299c3c5a1dbccd6cd2d49
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T17:23:20+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T17:23:20+03:00
+
+    Agent host session e7c5a11d-1c22-428c-8d90-a3d9a94d5c42 - turn 1
+
+commit 28b233f46f4f3a5ec3b0422632c2a2b34bec5679
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T17:23:20+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T17:23:20+03:00
+
+    Agent host session e7c5a11d-1c22-428c-8d90-a3d9a94d5c42 - turn 1 start
+
+commit 332df111ad39c740a6c48886a85aa4d2bbfcc0ce
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T17:21:57+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T17:21:57+03:00
+
+    Agent host session e7c5a11d-1c22-428c-8d90-a3d9a94d5c42 - baseline checkpoint
+
+ Binary.flf           | 372 ++++++++++++++++++++++
+ README.MD            |  33 ++
+ go.mod               |   3 +
+ main.go              | 464 ++++++++++++++++++++++++++++
+ main_test.go         | 259 ++++++++++++++++
+ shadow.txt           | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ standard.txt         | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ static/script.js     | 173 +++++++++++
+ static/style.css     | 442 ++++++++++++++++++++++++++
+ templates/index.html |  88 ++++++
+ thinkertoy.txt       | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ 11 files changed, 4399 insertions(+)
+
+commit 072b41973389453321e016f02ee3898276d51317
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T17:14:10+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T17:14:10+03:00
+
+    small changes to the website
+
+ static/script.js     |  59 +++++--
+ static/style.css     | 450 +++++++++++++++++++++++++++++++++++----------------
+ templates/index.html |  67 +++++---
+ 3 files changed, 401 insertions(+), 175 deletions(-)
+
+commit c890add13fb991432a1fd3f53e5c54b3df1cfe4c
+Author:     gvaramin <ghazal.varaminian@gritlab.ax>
+AuthorDate: 2026-10-06T17:01:16+03:00
+Commit:     gvaramin <ghazal.varaminian@gritlab.ax>
+CommitDate: 2026-10-06T17:01:16+03:00
+
+    Complete ascii-art-web-stylize
+
+ Binary.flf           | 372 ++++++++++++++++++++++
+ README.MD            |  33 ++
+ go.mod               |   3 +
+ main.go              | 464 ++++++++++++++++++++++++++++
+ main_test.go         | 259 ++++++++++++++++
+ shadow.txt           | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ standard.txt         | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ static/script.js     | 136 ++++++++
+ static/style.css     | 274 +++++++++++++++++
+ templates/index.html |  67 ++++
+ thinkertoy.txt       | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ 11 files changed, 4173 insertions(+)

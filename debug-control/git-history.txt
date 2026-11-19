@@ -1,0 +1,44 @@
+commit 13cc860ac83212a03427e432fbea7445663229e1
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-20T11:30:25+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-20T11:30:25+03:00
+
+    Done
+
+ README.md | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+
+commit 54d4f5f7df10434b90f73835d4c98b852f814c6a
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-20T11:24:47+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-20T11:24:47+03:00
+
+    Delimiters Done
+
+ ex03_delimiters.md | 24 ++++++++++++++++++++++++
+ 1 file changed, 24 insertions(+)
+
+commit 9044450f555f6951827a75894566941de26fb43b
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-20T11:09:07+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-20T11:09:07+03:00
+
+    Grounding Done
+
+ ex02_grounding.md | 15 ++++++++++++++-
+ 1 file changed, 14 insertions(+), 1 deletion(-)
+
+commit 909bf3e1b2d1d5239b37813b9c18fc43bb2653c9
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-20T10:58:55+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-20T10:58:55+03:00
+
+    Hallucination Done
+
+ ex01_hallucination.md | 23 +++++++++++++++++++++++
+ ex02_grounding.md     |  4 ++++
+ 2 files changed, 27 insertions(+)

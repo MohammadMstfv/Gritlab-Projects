@@ -1,0 +1,15 @@
+commit de4901dd1c50bc37486ad1492548d1a8710a7462
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-16T13:29:45+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-16T13:29:45+03:00
+
+    DOne
+
+ README.md               |  53 ++++++++++++++++++++
+ ex00_setup.md           | 125 ++++++++++++++++++++++++++++++++++++++++++++++++
+ ex01_bias.md            |  35 ++++++++++++++
+ ex02_prompts.md         |  80 +++++++++++++++++++++++++++++++
+ ex03_harmful_outputs.md | 105 ++++++++++++++++++++++++++++++++++++++++
+ ex04_accountability.md  |  49 +++++++++++++++++++
+ 6 files changed, 447 insertions(+)

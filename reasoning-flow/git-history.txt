@@ -1,0 +1,58 @@
+commit 1ea44741f63bbe90f2d2b385a57c42417936a8ef
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-18T12:14:36+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-18T12:14:36+03:00
+
+    small edit in README
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 94d4bcf6270bac55d64290ca165ff40688cc2125
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-18T12:13:32+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-18T12:13:32+03:00
+
+    Done all
+
+ README.md               |  7 +++++++
+ ex04_wrong_reasoning.md | 28 ++++++++++++++++++++++++++++
+ 2 files changed, 35 insertions(+)
+
+commit 678d7ae66b24f3e456f9b170e104d4ada1262135
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-18T11:56:57+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-18T11:56:57+03:00
+
+    ex03 done
+
+ ex03_decompose.md       | 49 +++++++++++++++++++++++++++++++++++++++++++++++++
+ ex04_wrong_reasoning.md |  0
+ 2 files changed, 49 insertions(+)
+
+commit 1245a22949dddba6a9723a5641e084ea5544fd35
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-18T11:39:38+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-18T11:39:38+03:00
+
+    ex02 done
+
+ ex02_trace.md     | 180 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ex03_decompose.md |   0
+ 2 files changed, 180 insertions(+)
+
+commit 5c86075e8840b1e6cf92a44b6c91eee0ad558c97
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-18T10:35:44+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-18T10:35:44+03:00
+
+    ex01 done
+
+ ex01_cot.md   | 69 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ex02_trace.md |  0
+ 2 files changed, 69 insertions(+)

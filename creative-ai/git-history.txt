@@ -1,0 +1,23 @@
+commit 5f7e18abe5436d2af0132aed155e8056a1e51d5d
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-22T11:04:16+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-22T11:04:16+03:00
+
+    Done
+
+ README.md       | 11 +++++++++++
+ ex02_applied.md | 17 +++++++++++++++++
+ ex03_image.md   | 15 +++++++++++++++
+ 3 files changed, 43 insertions(+)
+
+commit 7e2d02b84bd6f45b7be939e6ade5a18fbcd117f9
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-22T10:07:57+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-22T10:07:57+03:00
+
+    ex01 done
+
+ ex01_generate.md | 187 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 187 insertions(+)

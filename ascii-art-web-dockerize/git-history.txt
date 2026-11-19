@@ -1,0 +1,39 @@
+commit cd019e448ddbb5bd6d22cfedf0a5f6c868254482
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T17:20:05+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T17:20:05+03:00
+
+    removed extra files
+
+ index.html |  67 ---------------
+ script.js  | 136 ------------------------------
+ style.css  | 274 -------------------------------------------------------------
+ 3 files changed, 477 deletions(-)
+
+commit 18c133cb2519a1469d2bdb096b3de725c4f39bf6
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-10-06T17:19:14+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-10-06T17:19:14+03:00
+
+    dockerized
+
+ .dockerignore        |   4 +
+ Binary.flf           | 372 ++++++++++++++++++++++
+ Dockerfile           |  22 ++
+ README.MD            |  72 +++++
+ dockerize.sh         |   7 +
+ go.mod               |   3 +
+ index.html           |  67 ++++
+ main.go              | 464 ++++++++++++++++++++++++++++
+ main_test.go         | 259 ++++++++++++++++
+ script.js            | 136 ++++++++
+ shadow.txt           | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ standard.txt         | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ static/script.js     | 136 ++++++++
+ static/style.css     | 274 +++++++++++++++++
+ style.css            | 274 +++++++++++++++++
+ templates/index.html |  67 ++++
+ thinkertoy.txt       | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ 17 files changed, 4722 insertions(+)

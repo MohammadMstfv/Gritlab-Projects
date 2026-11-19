@@ -1,0 +1,26 @@
+commit d1d223aaf0d814e3845fcd2c1ebe25e353e89f73
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-09-24T16:43:43+03:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-09-24T16:43:43+03:00
+
+    add some comments
+
+ main.go | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 02dc9d9264f3a0ffe8feb0ac5ba43fc3a765155a
+Author:     gvaramin <ghazal.varaminian@gritlab.ax>
+AuthorDate: 2026-09-24T16:12:16+03:00
+Commit:     gvaramin <ghazal.varaminian@gritlab.ax>
+CommitDate: 2026-09-24T16:12:16+03:00
+
+    Complete ascii art color project
+
+ go.mod         |   3 +
+ main.go        | 232 ++++++++++++++++
+ main_test.go   |  95 +++++++
+ shadow.txt     | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ standard.txt   | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ thinkertoy.txt | 855 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 6 files changed, 2895 insertions(+)

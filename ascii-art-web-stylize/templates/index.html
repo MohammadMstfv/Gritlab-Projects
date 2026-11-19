@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f1e9">
+    <meta name="description" content="Turn your words into ASCII art. Choose a font, preview your result, and copy or save it.">
+    <title>ASCII Art Studio</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<main>
+    <header class="site-header">
+        <div class="brand">
+            <span class="brand-mark" aria-hidden="true">A<span>A</span></span>
+            <span>ASCII studio</span>
+        </div>
+        <span class="header-note">A little character goes a long way.</span>
+    </header>
+    <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">Text in. Art out.</p>
+        <h1 id="page-title">Make words<br><span>stand out.</span></h1>
+        <p class="intro-copy">Turn a message into text art. Pick a style, watch the preview update, then generate, copy, or save your creation.</p>
+    </section>
+    <form id="ascii-form" class="workspace" action="/ascii-art" method="post">
+        <section class="panel input-panel" aria-labelledby="input-heading">
+            <div class="panel-heading">
+                <div class="section-title">
+                    <span class="step-number" aria-hidden="true">01</span>
+                    <h2 id="input-heading">Your message</h2>
+                </div>
+                <span class="status" id="character-count" aria-live="polite">0 characters</span>
+            </div>
+            <div class="form-fields">
+                <div class="field">
+                    <label for="text">What would you like to say?</label>
+                    <textarea id="text" name="text" placeholder="Type a name, phrase, or just say hello..." aria-describedby="text-hint" autofocus required></textarea>
+                    <p class="field-hint" id="text-hint">Tip: short messages are easiest to read as ASCII art.</p>
+                    <div class="text-tools">
+                        <button id="example-button" class="text-button" type="button">Try an example</button>
+                        <button id="clear-button" class="text-button" type="button" disabled>Clear text</button>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="banner">Choose a style</label>
+                    <select id="banner" name="banner">
+                        <option value="standard">Standard</option>
+                        <option value="shadow">Shadow</option>
+                        <option value="thinkertoy">Thinkertoy</option>
+                        <option value="Binary">Binary</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+        <section class="panel preview" aria-labelledby="preview-heading">
+            <div class="panel-heading">
+                <div class="section-title">
+                    <span class="step-number" aria-hidden="true">02</span>
+                    <h2 id="preview-heading">Live preview</h2>
+                </div>
+                <span class="status" id="render-status" role="status" aria-live="polite">Waiting for text</span>
+            </div>
+            <pre id="live-result" class="live-output is-empty" aria-live="polite">Preview updates as you type.</pre>
+            <div class="preview-actions">
+                <button id="generate-button" class="button-primary" type="button"><span aria-hidden="true">✦</span> Generate art</button>
+                <button id="new-page-button" class="button-secondary" type="submit" formtarget="_blank">Open plain text <span aria-hidden="true">↗</span></button>
+            </div>
+        </section>
+    </form>
+    <section class="panel result-panel" aria-labelledby="result-heading">
+        <div class="panel-heading">
+            <div class="section-title">
+                <span class="step-number" aria-hidden="true">03</span>
+                <h2 id="result-heading">Your creation</h2>
+            </div>
+            <span class="status" id="result-status" role="status" aria-live="polite">Ready when you are</span>
+        </div>
+        <pre id="result" class="result-output is-empty" aria-live="polite">Your generated ASCII art will appear here.</pre>
+        <div class="actions">
+            <button id="copy-button" class="button-secondary" type="button" disabled><span aria-hidden="true">▣</span> Copy art</button>
+            <button id="save-button" class="button-secondary" type="button" disabled><span aria-hidden="true">↓</span> Save as PNG</button>
+        </div>
+    </section>
+    <footer>Made for messages worth making visible.</footer>
+</main>
+<script src="/static/script.js?v=9" defer></script>
+</body>
+</html>
