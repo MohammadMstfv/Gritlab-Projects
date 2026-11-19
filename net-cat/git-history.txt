@@ -1,0 +1,1084 @@
+commit 38e5eb736a469dbc486d7051699da149329e5cd8
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-18T19:53:08Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-18T19:53:08Z
+
+    Rename app to TCPChat
+
+ .gitignore | 2 +-
+ go.mod     | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 7e4a887656f54d6e533529076f4dc3acaa27f9bd
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-18T19:52:30Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-18T19:52:30Z
+
+    Move command handling out of message.go
+
+ command.go | 140 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ message.go | 134 ----------------------------------------------------------
+ 2 files changed, 140 insertions(+), 134 deletions(-)
+
+commit 0438056030430ceeaaaa7a065bd849d2cf6c4376
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-18T19:07:08Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-18T19:07:08Z
+
+    Update tests for new formats
+
+ server_test.go | 28 ++++++++++++++--------------
+ 1 file changed, 14 insertions(+), 14 deletions(-)
+
+commit ee4b24868695e28966369957569c3982ac9aacc8
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-18T18:45:00Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-18T18:45:00Z
+
+    Fix formatting and coloring
+
+ message.go | 65 ++++++++++++++++++++++++++++++++++++++------------------------
+ server.go  | 12 ++++++------
+ 2 files changed, 46 insertions(+), 31 deletions(-)
+
+commit f6514e83a1aa23204ff2534b8da1c2eac625685b
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-18T16:52:14Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-18T16:52:14Z
+
+    Add command to get help on available commands
+
+ message.go | 37 +++++++++++++++++++++++++++++++------
+ 1 file changed, 31 insertions(+), 6 deletions(-)
+
+commit 9c7bdddc94c8916a2f74a360b5e261c5f9c2fbc7
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-18T16:38:54Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-18T16:38:54Z
+
+    Cmd handling improvements
+
+ message.go | 130 +++++++++++++++++++++++++++++++++++--------------------------
+ 1 file changed, 74 insertions(+), 56 deletions(-)
+
+commit e6947b4ccf88dcec71b1d8205ec7d1b60e156899
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T17:45:56+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T17:45:56+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 33
+
+commit 16d5fde8aa929de9edd223c0baed6a9e80835d21
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T17:45:56+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T17:45:56+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 33 start
+
+commit e097a61386b4958cfa51a4b90b5fdcb665e630dc
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-18T15:40:09Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-18T15:44:00Z
+
+    Add online command to list connected users
+
+ message.go | 23 +++++++++++++++++++++++
+ 1 file changed, 23 insertions(+)
+
+commit b6e6e0442cf50fc7401b92624d4a79b41c07acbf
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T17:43:14+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T17:43:14+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 32
+
+commit c6382850584a2f49fa1566aefdcb41e019867ead
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T17:43:14+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T17:43:14+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 32 start
+
+commit 345ce5bec8b1464858a33016187c483d4e9c4c96
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T17:42:43+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T17:42:43+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 31
+
+commit bddf9ed988cb961010734f67ec4e9292cef9e07b
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T17:42:43+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T17:42:43+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 31 start
+
+commit 54dcffb5fd78231f211e0d6b908e808549cba113
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T17:40:40+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T17:40:40+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 30
+
+commit fa7f83d117f9d71598ecb0030cf9d739a9af85ea
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T17:40:40+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T17:40:40+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 30 start
+
+commit 150870335e4681dbffc342f72d3134c778f00fa2
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-18T15:23:40Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-18T15:23:40Z
+
+    Change default group back to empty string
+
+ message.go | 9 +++------
+ server.go  | 2 +-
+ 2 files changed, 4 insertions(+), 7 deletions(-)
+
+commit 376422689f91384d1b59d8241e6c692370f309d9
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-18T15:16:52Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-18T15:16:52Z
+
+    Add ability to change groups
+
+ message.go | 29 ++++++++++++++++++++++++++++-
+ 1 file changed, 28 insertions(+), 1 deletion(-)
+
+commit 7f3bf6ac7a4736215682bdd2ddb00d8e6acfc4b1
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-18T15:04:17Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-18T15:04:17Z
+
+    Add name validation
+
+ message.go | 23 ++++++++++++++++-------
+ server.go  | 43 ++++++++++++++++++++++++++++++++++++-------
+ 2 files changed, 52 insertions(+), 14 deletions(-)
+
+commit 9deeddd4ed64b425cff1bf7a958afcf7b1958c43
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T17:04:00+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T17:04:00+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 29
+
+commit 06511228731adb4b3bc7085668651ecb570d8569
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T17:04:00+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T17:04:00+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 29 start
+
+commit 7c2827a95a0a16db83d768b547563787ee30f261
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:49:07+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:49:07+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 28
+
+commit 5890dcf95d8c083282005efd052b6e1160ea6b55
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:49:06+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:49:06+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 28 start
+
+commit e83db0ded08bccb0cfb22adc6e73c4d87fea3c44
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:46:44+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:46:44+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 27
+
+commit 9cc059f35ff463b7654608c48dbc4a9bec2b669b
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:46:44+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:46:44+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 27 start
+
+commit 1ad2065b633da5d0c91bff5aa03e31ce8000e80e
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:45:39+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:45:39+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 26
+
+commit 3d5b6fb1cf015bb722c4757b593e91c7bf088ee9
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:45:39+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:45:39+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 26 start
+
+commit 5a13037152cfc740f211b953401db893ced02fe8
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:44:09+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:44:09+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 25
+
+commit 6123d4b6248e111d4596302cb12a1de4a10a71b1
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:44:09+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:44:09+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 25 start
+
+commit 94c6a07d18288e7476b4b4ca27caae2d91e9c4b3
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:43:06+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:43:06+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 24
+
+commit 86f5cb001291b166a1cd58cf9379879859d55633
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:43:06+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:43:06+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 24 start
+
+commit c3fcea95c35b106d7210bcac320cbf2923bd883e
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:42:03+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:42:03+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 23
+
+commit 84008bb148e48da129b0e6aaf01da7ce72f6c2e2
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:42:03+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:42:03+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 23 start
+
+commit 02b863ef3d71fa91daa8e92dff692eda6fa4d1cb
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-18T14:38:04Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-18T14:38:04Z
+
+    Change commands system to recognize all commands
+
+ message.go | 51 +++++++++++++++++++++++++++++++--------------------
+ 1 file changed, 31 insertions(+), 20 deletions(-)
+
+commit 1af5376c141827d34b32a8b6bd4ebaa9156eee37
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:35:39+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:35:39+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 22
+
+commit 96a8a6e67038d946cf1bf456f8797b3d5fbc4e33
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:35:39+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:35:39+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 22 start
+
+commit f09a07873785bcbcf35810241d99395070c8772c
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:32:27+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:32:27+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 21
+
+commit 59304edfd8eb21047dc7a17e3a3a1c253e14a785
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:32:27+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:32:27+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 21 start
+
+commit 9a50d1109f53b00d110a8c4c94a6ca80f1b2b8ef
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:28:06+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:28:06+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 20
+
+commit 3ca7b486b79c0a134892f373df33beebcefafda8
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:28:06+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:28:06+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 20 start
+
+commit 0c19304a3dbf41087466c2fd0a7f8d62ddda4051
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-18T14:26:15Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-18T14:26:15Z
+
+    Remove unnecessary name value from message structure
+
+ message.go | 9 ++-------
+ 1 file changed, 2 insertions(+), 7 deletions(-)
+
+commit ec8d86d09f88930276be82032779d5362bb0e9c8
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:24:13+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:24:13+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 19
+
+commit 7872444b58130460f33c57a591f073e302e37805
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:24:13+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:24:13+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 19 start
+
+commit 50eb4916b9607d4faa8b7c2775c1c85df99bb8bc
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:20:59+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:20:59+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 18
+
+commit eb947bf2ba36ac95096cd372ae57620c3090caf0
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:20:59+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:20:59+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 18 start
+
+commit 72d3aff97c49174c6546c59a66da9572fb5588b6
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:04:39+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:04:39+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 17
+
+commit 81b2d7bcb2a802415a5fa396e8e84d625ff019e3
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T16:04:39+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T16:04:39+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 17 start
+
+commit c5d721ba834491965dbcf61a7d3446726d021c70
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T15:57:37+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T15:57:37+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 16
+
+commit bb059b4928ac06cbf62603b37d01be936ef6257f
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T15:57:37+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T15:57:37+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 16 start
+
+commit f4411ae4bfb2540225ece7c20aaf97e652727b00
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T15:37:02+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T15:37:02+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 15
+
+commit 068c5d4dcdb12ce681beac5ee1b231b15040477c
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T15:37:02+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T15:37:02+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 15 start
+
+commit a8dabbe173cc4e092da720883d6958a8a0797c4d
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T15:31:45+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T15:31:45+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 14
+
+commit 6cf452c2e888628314d6a1b8487f0053c5c931c3
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T15:31:45+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T15:31:45+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 14 start
+
+commit 6539f6afc3366dd6f1398c9b2307d08bb6adfcde
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T15:30:44+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T15:30:44+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 13
+
+commit 53b5117a14de9a21e09fb872d72ac58f8d4568f9
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T15:30:44+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T15:30:44+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 13 start
+
+commit b1e312402f159be3e086cfd292e4de7f8d471445
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T15:30:00+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T15:30:00+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 12
+
+commit f86e4bd765c596a0709cfebe02c1afbc209a2345
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T15:30:00+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T15:30:00+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 12 start
+
+commit dafb9e84f9c70c4249f3d65ee5cb3d95979ec8af
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T15:26:36+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T15:26:36+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 11
+
+commit ea2da4c24b7c73fa8476de26e24caf4e36782d89
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T15:26:36+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T15:26:36+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 11 start
+
+commit 33187c83312278ea031881241be28c1bf80239de
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T15:25:14+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T15:25:14+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 10
+
+commit d50b517e450ae44f6265efac3affcd1a50bbc739
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T15:25:14+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T15:25:14+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 10 start
+
+commit ebdeafc3931cf284ee4fdcf83c5c76ba075df031
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T15:23:11+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T15:23:11+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 9
+
+commit b7115241debac494b8a12f6da34cfb4324f9caf9
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T15:23:11+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T15:23:11+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 9 start
+
+commit 58f6724c8b546c2cf08ddeb0087c406eaddae5df
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T15:09:24+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T15:09:24+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 8
+
+commit 0a79789fc228401396a6c95b5eae4ca5d47abd81
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-18T15:09:24+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-18T15:09:24+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 8 start
+
+commit de6fb9ee1a1adbfbe43d6b43284c05ba214a6de4
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-17T18:45:42+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-17T18:45:42+02:00
+
+    moved message stuff to message.go from server.go
+
+ message.go | 114 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++-----
+ server.go  | 106 ++++----------------------------------------------------
+ 2 files changed, 111 insertions(+), 109 deletions(-)
+
+commit e6eeccb381bd21c2f82158f395f961e487b051ad
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-17T18:45:28+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-17T18:45:28+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 7
+
+ message.go | 114 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++-----
+ server.go  | 106 ++++----------------------------------------------------
+ 2 files changed, 111 insertions(+), 109 deletions(-)
+
+commit 13ba5f9181232cace7ba2c9a502860a0f702cfb6
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-17T18:45:28+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-17T18:45:28+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 7 start
+
+commit b45625cae35ba5b0ed699cf408af83898918470b
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-17T18:43:20+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-17T18:43:20+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 6
+
+commit 2a92dbad48cfc484ea40977c3745e377653f8889
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-17T18:43:20+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-17T18:43:20+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 6 start
+
+commit 2e7fb24f6c66706c7ba1e4481aa1b61306834dd7
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-17T18:41:37+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-17T18:41:37+02:00
+
+    add server test file
+
+ server_test.go | 615 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 615 insertions(+)
+
+commit 7982f2d296d43a3148b7e250021b72c5c4a51c52
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-17T18:41:26+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-17T18:41:26+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 5
+
+ server_test.go | 489 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 489 insertions(+)
+
+commit f90468d7787686b1ea4dfc0421e8d6b170c70bef
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-17T18:41:26+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-17T18:41:26+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 5 start
+
+commit a4f2eb1600aaefc6be1e868e966ce05631ed31bb
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-17T18:28:08+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-17T18:28:08+02:00
+
+    History fix: Disconnect cleanup, overtake the history fix
+
+ server.go | 79 +++++++++++++++++++++++++++++++++++++++++----------------------
+ 1 file changed, 52 insertions(+), 27 deletions(-)
+
+commit 401cc03d9d41402e45a74da1903092170f220509
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-17T18:25:20+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-17T18:25:20+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 4
+
+ server.go      |  79 +++++++++++++++++++++++++++++---------------
+ server_test.go | 102 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 2 files changed, 153 insertions(+), 28 deletions(-)
+
+commit e412df23f5919947da8ea1a5bcc1fae20fe54d62
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-17T18:25:20+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-17T18:25:20+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 4 start
+
+commit b2cb79ad582de179577fb83026fa6d48444a6323
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-17T18:20:45+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-17T18:20:45+02:00
+
+    connection limit fix
+
+ server.go | 42 +++++++++++++++++++++++++++++++++++-------
+ 1 file changed, 35 insertions(+), 7 deletions(-)
+
+commit 6d6416c7d761508389cc97e06e70ad0dfe9fd1cc
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-17T18:17:49+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-17T18:17:49+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 3
+
+commit eb4e7759f1f070a2160f038f36a2eff8ca273f8f
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-17T18:17:48+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-17T18:17:48+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 3 start
+
+commit 177344edcc22520b0c20708ab68ab032ad261550
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-17T18:15:06+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-17T18:15:06+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 2
+
+ server.go      | 42 +++++++++++++++++++++++++++++++++++-------
+ server_test.go | 26 ++++++++++++++++++++++++++
+ 2 files changed, 61 insertions(+), 7 deletions(-)
+
+commit dc9a3f4080d809c8fc068e0b347c7a5787f3c5f3
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-17T18:15:06+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-17T18:15:06+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 2 start
+
+commit f9bf10176ccb89bd4e9dd62560388e06aceabc93
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-17T17:36:49+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-17T17:36:49+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 1
+
+commit 15495e3206a85eda898294f53e028118865ff72a
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-17T17:36:48+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-17T17:36:48+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - turn 1 start
+
+commit 54249c80f68530cbd2cd7d5d050dab120ac7f04c
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-17T16:43:32+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-17T16:43:32+02:00
+
+    Agent host session ba3b3a56-4555-4d9b-9ea2-6c1b01db1543 - baseline checkpoint
+
+ .editorconfig              |  13 ++
+ .gitignore                 |   2 +
+ .woodpecker/unit-test.yaml |   6 +
+ args.go                    |  23 +++
+ go.mod                     |   3 +
+ main.go                    |  18 +++
+ message.go                 |  28 ++++
+ server.go                  | 338 +++++++++++++++++++++++++++++++++++++++++++++
+ 8 files changed, 431 insertions(+)
+
+commit e70ba8813d84cd8f50ce3ca5dece9746fb35a82f
+Author:     gvaramin <ghazal.varaminian@gritlab.ax>
+AuthorDate: 2026-11-17T16:22:34+02:00
+Commit:     gvaramin <ghazal.varaminian@gritlab.ax>
+CommitDate: 2026-11-17T16:22:34+02:00
+
+    Add client name change command
+
+ message.go |  1 +
+ server.go  | 40 +++++++++++++++++++++++++++++++++++-----
+ 2 files changed, 36 insertions(+), 5 deletions(-)
+
+commit 9885940dc07e03e84ff2b795583e28af2d8574a4
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-17T14:09:46Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-17T14:09:46Z
+
+    Move sending history and system messages to groupadd/del
+
+ server.go | 29 +++++++++++------------------
+ 1 file changed, 11 insertions(+), 18 deletions(-)
+
+commit 2f3713d65eb0f61ea058a15d7870b2e8c741c66e
+Author:     gvaramin <ghazal.varaminian@gritlab.ax>
+AuthorDate: 2026-11-17T15:56:00+02:00
+Commit:     gvaramin <ghazal.varaminian@gritlab.ax>
+CommitDate: 2026-11-17T15:56:00+02:00
+
+    Handle server arguments and print listening addr
+
+ args.go   | 14 ++++++++++----
+ main.go   | 18 ++++++++++++++----
+ server.go |  2 ++
+ 3 files changed, 26 insertions(+), 8 deletions(-)
+
+commit 9a5ee1b4d0812936b52798b0bebed3c5eb0f8cfb
+Author:     gvaramin <ghazal.varaminian@gritlab.ax>
+AuthorDate: 2026-11-17T15:43:00+02:00
+Commit:     gvaramin <ghazal.varaminian@gritlab.ax>
+CommitDate: 2026-11-17T15:43:00+02:00
+
+    match system join and leave messages
+
+ server.go | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit a2d47712770babf3c6e61b8c9d013da996ac917d
+Author:     gvaramin <ghazal.varaminian@gritlab.ax>
+AuthorDate: 2026-11-17T15:31:24+02:00
+Commit:     gvaramin <ghazal.varaminian@gritlab.ax>
+CommitDate: 2026-11-17T15:31:24+02:00
+
+    limit chat group to ten clients
+
+ server.go | 37 ++++++++++++++++++++++++++-----------
+ 1 file changed, 26 insertions(+), 11 deletions(-)
+
+commit 48c230d94636a2972c2017c9725402f468a2ef74
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-17T13:26:49Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-17T13:26:49Z
+
+    Fix message formatting
+
+ server.go | 31 +++----------------------------
+ 1 file changed, 3 insertions(+), 28 deletions(-)
+
+commit 459f765fd5381cac25bef5f5124452e24b726941
+Author:     ghazalvaraminian <qvaraminiyan@gmail.com>
+AuthorDate: 2026-11-17T15:06:13+02:00
+Commit:     ghazalvaraminian <qvaraminiyan@gmail.com>
+CommitDate: 2026-11-17T15:06:13+02:00
+
+    announce client departures
+
+ server.go | 36 +++++++++++++++++++++++++++++++++++-
+ 1 file changed, 35 insertions(+), 1 deletion(-)
+
+commit 3f413341abc19b0ba7aa89ef24fe95eb3e5d3433
+Author:     ghazalvaraminian <qvaraminiyan@gmail.com>
+AuthorDate: 2026-11-17T15:01:51+02:00
+Commit:     ghazalvaraminian <qvaraminiyan@gmail.com>
+CommitDate: 2026-11-17T15:01:51+02:00
+
+    announce client joins
+
+ server.go | 32 +++++++++++++++++++++++++++++++-
+ 1 file changed, 31 insertions(+), 1 deletion(-)
+
+commit d8dafeb3d30c511d4e4c437d48ca4a4d2d673b31
+Author:     ghazalvaraminian <qvaraminiyan@gmail.com>
+AuthorDate: 2026-11-17T14:52:37+02:00
+Commit:     ghazalvaraminian <qvaraminiyan@gmail.com>
+CommitDate: 2026-11-17T14:52:37+02:00
+
+    send chat history to new clients
+
+ server.go | 30 ++++++++++++++++++++----------
+ 1 file changed, 20 insertions(+), 10 deletions(-)
+
+commit 9d27ad7e30f73bb8e23b56b130c42b2693abe959
+Author:     ghazalvaraminian <qvaraminiyan@gmail.com>
+AuthorDate: 2026-11-17T14:47:56+02:00
+Commit:     ghazalvaraminian <qvaraminiyan@gmail.com>
+CommitDate: 2026-11-17T14:47:56+02:00
+
+    store formatted chat messages in group history
+
+ server.go | 24 ++++++++++++------------
+ 1 file changed, 12 insertions(+), 12 deletions(-)
+
+commit c2e72eb654fc4a42814c3552d6029b783ffa1106
+Author:     ghazalvaraminian <qvaraminiyan@gmail.com>
+AuthorDate: 2026-11-17T14:40:14+02:00
+Commit:     ghazalvaraminian <qvaraminiyan@gmail.com>
+CommitDate: 2026-11-17T14:40:14+02:00
+
+    add timestamps to chat messages
+
+ server.go | 13 ++++++++++---
+ 1 file changed, 10 insertions(+), 3 deletions(-)
+
+commit aaa91b869d022d56c4064131ed7700b9ef5762f3
+Author:     ghazalvaraminian <qvaraminiyan@gmail.com>
+AuthorDate: 2026-11-17T14:38:45+02:00
+Commit:     ghazalvaraminian <qvaraminiyan@gmail.com>
+CommitDate: 2026-11-17T14:38:45+02:00
+
+    synchronize broadcast group access
+
+ server.go | 31 +++++++++++++++++++++++++------
+ 1 file changed, 25 insertions(+), 6 deletions(-)
+
+commit 6a6db87312b97007f61402a7712790f55d43b0b6
+Author:     ghazalvaraminian <qvaraminiyan@gmail.com>
+AuthorDate: 2026-11-17T14:36:55+02:00
+Commit:     ghazalvaraminian <qvaraminiyan@gmail.com>
+CommitDate: 2026-11-17T14:36:55+02:00
+
+    skip empty chat messages
+
+ server.go | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+
+commit 162bbac4db67420c661f9bdea248fc4f7928063d
+Author:     ghazalvaraminian <qvaraminiyan@gmail.com>
+AuthorDate: 2026-11-17T14:35:18+02:00
+Commit:     ghazalvaraminian <qvaraminiyan@gmail.com>
+CommitDate: 2026-11-17T14:35:18+02:00
+
+    handle TCP accept errors
+
+ server.go | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+
+commit e957a6b1fe93b0e9011fa267cd79d0105eeba482
+Author:     ghazalvaraminian <qvaraminiyan@gmail.com>
+AuthorDate: 2026-11-17T14:33:11+02:00
+Commit:     ghazalvaraminian <qvaraminiyan@gmail.com>
+CommitDate: 2026-11-17T14:33:11+02:00
+
+    remove disconnected clients from their group
+
+ server.go | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit d21917ffc4566f7c659ac49a6b3c11e9dea7acb7
+Author:     gvaramin <ghazal.varaminian@gritlab.ax>
+AuthorDate: 2026-11-17T11:20:49+02:00
+Commit:     gvaramin <ghazal.varaminian@gritlab.ax>
+CommitDate: 2026-11-17T11:20:49+02:00
+
+    group named "general" instead of an empty-string
+
+ server.go | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit faeafc97759e7141efca9ceb2098f7c1242b7d35
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-16T12:31:17Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-16T12:31:17Z
+
+    Delete empty groups on last client disconnect
+
+ server.go | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit c336bf6f5358e60c650f6a4baa3615c944fce252
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-16T12:26:13Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-16T12:26:13Z
+
+    Fixup tux ascii art logo
+
+ server.go | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 4f2a7c85d02be0dd5a203f71c02abf640042817f
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-16T11:55:59Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-16T11:55:59Z
+
+    Implement basic messaging functionality
+
+ server.go | 41 +++++++++++++++++++++++++++--------------
+ 1 file changed, 27 insertions(+), 14 deletions(-)
+
+commit 3cc35c2820391b736d0ad2f23a0ac385735e282c
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-16T11:20:48Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-16T11:20:48Z
+
+    Implement group operations
+
+ server.go | 54 ++++++++++++++++++++++++++++++++++--------------------
+ 1 file changed, 34 insertions(+), 20 deletions(-)
+
+commit eba39de5d1f867a540f51f3301dfc6386a552a11
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-16T10:34:07Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-16T10:34:07Z
+
+    Barebones argument parsing and main
+
+ args.go | 12 ++++++++++--
+ main.go |  4 ++--
+ 2 files changed, 12 insertions(+), 4 deletions(-)
+
+commit d1392f1bedc4e7e7d8c3942bf6d6c7e42524f58d
+Author:     gvaramin <ghazal.varaminian@gritlab.ax>
+AuthorDate: 2026-11-13T13:58:33+02:00
+Commit:     gvaramin <ghazal.varaminian@gritlab.ax>
+CommitDate: 2026-11-13T13:58:33+02:00
+
+    add client to default group
+
+ server.go | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit ade1c774b71485c646650762c2073f21d7f3f154
+Author:     gvaramin <ghazal.varaminian@gritlab.ax>
+AuthorDate: 2026-11-13T13:48:03+02:00
+Commit:     gvaramin <ghazal.varaminian@gritlab.ax>
+CommitDate: 2026-11-13T13:48:03+02:00
+
+    client
+
+ server.go | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+
+commit f1f6a94386e4b110eea158bd73b50cd45b746224
+Author:     gvaramin <ghazal.varaminian@gritlab.ax>
+AuthorDate: 2026-11-13T13:44:53+02:00
+Commit:     gvaramin <ghazal.varaminian@gritlab.ax>
+CommitDate: 2026-11-13T13:44:53+02:00
+
+    initClient & handler
+
+ server.go | 84 +++++++++++++++++++++++++++++++++++++++++++++++++++++----------
+ 1 file changed, 71 insertions(+), 13 deletions(-)
+
+commit c66193c2a23f4e47422712320900099275800181
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-13T12:52:44+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-13T12:52:44+02:00
+
+    Agent host session 5c6080f3-d136-4ca1-9344-a712083799f2 - turn 1
+
+commit 41c24dc65bf009ea69b6409e1efcce6c2050c52c
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-13T12:52:44+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-13T12:52:44+02:00
+
+    Agent host session 5c6080f3-d136-4ca1-9344-a712083799f2 - turn 1 start
+
+commit d2b0ccfdd2a3c2a2a0867ed3087326aad716790f
+Author:     mmostafa <m.mostafavi82@gmail.com>
+AuthorDate: 2026-11-13T12:50:35+02:00
+Commit:     mmostafa <m.mostafavi82@gmail.com>
+CommitDate: 2026-11-13T12:50:35+02:00
+
+    Agent host session 5c6080f3-d136-4ca1-9344-a712083799f2 - baseline checkpoint
+
+ .editorconfig              |  13 +++++
+ .gitignore                 |   2 +
+ .woodpecker/unit-test.yaml |   6 +++
+ args.go                    |   9 ++++
+ go.mod                     |   3 ++
+ main.go                    |   8 +++
+ message.go                 |  27 ++++++++++
+ server.go                  | 124 +++++++++++++++++++++++++++++++++++++++++++++
+ 8 files changed, 192 insertions(+)
+
+commit 502e6d13e9bfa063e6124b56492e529d793d04be
+Author:     Silver Golovastenko <silver@gozas.me>
+AuthorDate: 2026-11-13T10:44:41Z
+Commit:     Silver Golovastenko <silver@gozas.me>
+CommitDate: 2026-11-13T10:44:41Z
+
+    Add TCP connection functionality
+
+ args.go   |  4 ++-
+ server.go | 89 +++++++++++++++++++++++++++++++++++++++++++++++++--------------
+ 2 files changed, 72 insertions(+), 21 deletions(-)
+
+commit c836bdaef8a8d67792a9feda38f1ff613e7d6691
+Author:     Silver Gozas <silver@gozas.me>
+AuthorDate: 2026-11-12T14:25:47Z
+Commit:     Silver Gozas <silver@gozas.me>
+CommitDate: 2026-11-12T14:25:47Z
+
+    Initialize project structure
+
+ args.go    |  7 ++++++
+ main.go    |  8 +++++++
+ message.go | 27 ++++++++++++++++++++++
+ server.go  | 75 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 4 files changed, 117 insertions(+)
+
+commit bc3730c4d271cd78802134e03549069fa146d999
+Author:     Silver Gozas <silver@gozas.me>
+AuthorDate: 2026-11-11T09:03:17Z
+Commit:     Silver Gozas <silver@gozas.me>
+CommitDate: 2026-11-11T09:03:17Z
+
+    Initial commit
+
+ .editorconfig              | 13 +++++++++++++
+ .gitignore                 |  2 ++
+ .woodpecker/unit-test.yaml |  6 ++++++
+ go.mod                     |  3 +++
+ 4 files changed, 24 insertions(+)
